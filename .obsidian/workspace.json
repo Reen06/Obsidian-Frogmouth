@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Make EXE Scripts.md",
-                "mode": "source",
+                "file": "Micro Mamba/Old How to Micromamba.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Make EXE Scripts"
+              "title": "Old How to Micromamba"
             }
           }
         ],
@@ -195,16 +195,18 @@
       "bases:Create new base": false
     }
   },
-  "active": "dd65e6413fa368ea",
+  "active": "e00510cb38b6c86d",
   "lastOpenFiles": [
-    "README-create-mamba-env.md",
-    "Old How to Micromamba.md",
-    "Jetson-Containers-Guide.md",
-    "Jetson Containers Short.md",
-    "How to Micromamba.md",
-    "Commands.md",
-    "Linux/Make EXE Scripts.md",
+    "Micro Mamba/README-create-mamba-env.md",
+    "Docker/Jetson Containers Short.md",
+    "Docker",
+    "Linux/Commands.md",
+    "Micro Mamba/How to Micromamba.md",
+    "Micro Mamba",
     "GitHub/Github Workflow.md",
+    "Linux/Make EXE Scripts.md",
+    "Micro Mamba/Old How to Micromamba.md",
+    "Docker/Jetson-Containers-Guide.md",
     "My Folder Locations.canvas",
     "IsaacLab/Isaac Lab Training.canvas",
     "Linux",
@@ -229,12 +231,9 @@
     "IsaacLab/Train/SKRL Train Flags.md",
     "IsaacLab/Train/Frame Works Overview.md",
     "IsaacLab/Individual Articles/Train Vs Play.md",
-    "IsaacLab/Individual Articles/Hydra Info.md",
     "IsaacLab/Play",
     "IsaacLab/Train",
     "Hydra Info",
-    "IsaacLab/Train/Frame Works",
-    "IsaacLab",
     "ComfyUI ImgVid/Info On Files And Useability/Folder Structure.png"
   ]
 }

@@ -45,4 +45,15 @@ git commit -m "your message"
 git push
 ```
 
-That’s it. GitHub will update your repo with whatever’s new in your local folder.
+### **Branch's**
+```powershell
+# (1) See current Branch
+git Branch
+
+# (2) Change Branch
+git checkout main
+
+# (3) If branch Does not exist locally
+git fetch origin
+git checkout -b main origin/main
+```
