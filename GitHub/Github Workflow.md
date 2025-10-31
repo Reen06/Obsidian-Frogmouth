@@ -41,23 +41,6 @@ git push origin main          # upload to GitHub
 
 ---
 
-### Notes:
-
-- You **don’t need `--allow-unrelated-histories`** anymore — that’s only for the very first merge if your local and remote histories were different.
-    
-- You only need `-u` (the `-u` flag in `git push -u origin main`) once — after that, you can just type:
-    
-    ```powershell
-    git push
-    ```
-    
-    and Git will remember the branch to push to.
-    
-
----
-
-###  In short:
-
 Next time you make changes, just do:
 
 ```powershell
