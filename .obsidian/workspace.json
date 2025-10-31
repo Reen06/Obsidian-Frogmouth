@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "My Demo Programs"
             }
+          },
+          {
+            "id": "32ee151c6ee7fc40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GitHub/Github Workflow.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Github Workflow"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -166,14 +181,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "37bd5ce05ce3a4e6",
+  "active": "dd65e6413fa368ea",
   "lastOpenFiles": [
+    "IsaacLab/Individual Articles/My Demo Programs.md",
+    "GitHub/Github Workflow.md",
+    "GitHub",
     "IsaacLab/Isaac Lab Training.canvas",
     "IsaacLab/AI_Reference/Isaac_Lab_Complete_Reference.md",
     "My Folder Locations.canvas",
     "ROS 2",
-    "IsaacLab/Individual Articles/My Demo Programs.md",
-    "Untitled.md",
     "IsaacLab/Individual Articles/Demo Tasks.md",
     "IsaacLab/Individual Articles/Train.py & Play.py.md",
     "IsaacLab/Individual Articles/Mounting an Existing Project.md",
@@ -204,7 +220,6 @@
     "IsaacLab/Train/Frame Works",
     "IsaacLab",
     "ComfyUI ImgVid/Nodes/Video",
-    "Load Diffusion Model",
     "ComfyUI ImgVid/Info On Files And Useability/Folder Structure.png"
   ]
 }
