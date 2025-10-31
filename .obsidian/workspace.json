@@ -42,7 +42,7 @@
               "type": "markdown",
               "state": {
                 "file": "Docker/Jetson Containers Short.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -107,7 +107,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a28d26ac7c011f54",
