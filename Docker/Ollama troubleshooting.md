@@ -7,8 +7,8 @@
   - `tinyllama-cpu` – forces CPU backend for a guaranteed fallback.
 - Restarted the Ollama server with the desired backend (`cuda_v12` or `cpu`) before running prompts.
 
-### Current Files & Locations
-- Host/shared Modelfile: `/home/jetson/Projects/project-containers/Modelfile`
+### Make a Model File
+-  Modelfile is used to tell specifics on how model is ran and what model to acually use: `/home/jetson/Projects/project-containers/<Project>/Modelfile`
 
 ```3:3:/home/jetson/Projects/project-containers/Modelfile
 FROM tinyllama:1.1b
@@ -18,26 +18,36 @@ PARAMETER num_gpu 10
 
 ### Workflow / How To Use It
 1. **Enter the container** (already running as `test1`, otherwise use `jetson-containers run $(autotag ollama)`).
-2. **Pick a backend**:
+2. **Pick a backend**: (Start Ollama Server)
    - GPU (preferred):
-     ```bash
+   ```bash
      OLLAMA_LLM_LIBRARY=cuda_v12 ollama serve > /tmp/ollama.log 2>&1 &
      ```
    - CPU fallback:
-     ```bash
+   ```bash
      OLLAMA_LLM_LIBRARY=cpu ollama serve > /tmp/ollama.log 2>&1 &
      ```
+   - point to the Model File.
+   ```bash
+	   ollama create <model-name> -f /workspace/Modelfile
+     ```
    - Confirm the server is ready with `ollama list`.
-3. **Run a model**:
+1. **Run a model**:
    ```bash
    echo "hello" | ollama run tinyllama-jetson   # GPU path
    echo "hello" | ollama run tinyllama-cpu      # CPU fallback
    ```
-4. **Watch logs** if something stalls:
+
+   - Run From outside container:
+     ```bash
+     OLLAMA_LLM_LIBRARY=cpu ollama serve > /tmp/ollama.log 2>&1 &
+     ```
+
+2. **Watch logs** if something stalls:
    ```bash
    tail -f /tmp/ollama.log
    ```
-5. **Shut down** by killing the serve process when done:
+3. **Shut down** by killing the serve process when done:
    ```bash
    pkill ollama
    ```
@@ -58,7 +68,7 @@ PARAMETER num_gpu 10
   ```
 - Unload a model without stopping the server:
   ```bash
-  ollama unload tinyllama-jetson
+  ollama stop tinyllama-jetson
   ```
 - Stop the Ollama server (frees memory and logs out):
   ```bash

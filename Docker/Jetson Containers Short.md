@@ -3,7 +3,20 @@
 Create a container with the current directory mounted to `/workspace`:
 
 ```bash
+#(1) start a premade container with current dir mounted
 jetson-containers run --name <name> -v $(pwd):/workspace $(autotag ollama) bash
+
+#(2) mount a Volume to an existing container
+jetson-containers run \
+  -v /home/jetson/Projects/docker-containers/<Project>:/workspace \
+  <image>
+
+#(3) Start a container from an Image
+jetson-containers run \
+  --name tinyllama \
+  -v $(pwd):/workspace \
+  reen16/jetson-tinyllama-1.1b:latest \
+  bash
 ```
 
 > **Note:**  
