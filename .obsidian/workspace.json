@@ -1,0 +1,210 @@
+{
+  "main": {
+    "id": "60c7ff8623c4f6db",
+    "type": "split",
+    "children": [
+      {
+        "id": "462984ff4fc1de3e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "37bd5ce05ce3a4e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IsaacLab/Individual Articles/My Demo Programs.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "My Demo Programs"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "82689dd459622c75",
+    "type": "split",
+    "children": [
+      {
+        "id": "bae8e80f7e70b71a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dd65e6413fa368ea",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "61dee166d61ffcd0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1686299bae56bac6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a28d26ac7c011f54",
+    "type": "split",
+    "children": [
+      {
+        "id": "f27479ed1aa9f37c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c960150886d48e60",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "2fc81e43d5c77ecf",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "83213674b8630027",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "99c3dc0c66b45f21",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "37bd5ce05ce3a4e6",
+  "lastOpenFiles": [
+    "IsaacLab/Isaac Lab Training.canvas",
+    "IsaacLab/AI_Reference/Isaac_Lab_Complete_Reference.md",
+    "My Folder Locations.canvas",
+    "ROS 2",
+    "IsaacLab/Individual Articles/My Demo Programs.md",
+    "Untitled.md",
+    "IsaacLab/Individual Articles/Demo Tasks.md",
+    "IsaacLab/Individual Articles/Train.py & Play.py.md",
+    "IsaacLab/Individual Articles/Mounting an Existing Project.md",
+    "IsaacLab/Individual Articles/Policies, Training, and Rewards.md",
+    "IsaacLab/Individual Articles/Manager-Based Workflow.md",
+    "IsaacLab/Individual Articles/Importing Robot and Setting up RL Training.md",
+    "IsaacLab/Individual Articles/Model Deployment.md",
+    "IsaacLab/Individual Articles/Debugging and Profiling.md",
+    "IsaacLab/Individual Articles/Advanced Features.md",
+    "IsaacLab/Individual Articles/Non-Training Scripts and Tools.md",
+    "IsaacLab/Individual Articles/Robot Integration.md",
+    "IsaacLab/Individual Articles/Sensor Integration.md",
+    "IsaacLab/AI_Reference",
+    "IsaacLab/Individual Articles",
+    "IsaacLab/Train/SKRL Train Flags.md",
+    "IsaacLab/Train/Frame Works Overview.md",
+    "IsaacLab/Individual Articles/Train Vs Play.md",
+    "IsaacLab/Individual Articles/Hydra Info.md",
+    "IsaacLab/Individual Articles/Save Locations.md",
+    "IsaacLab/Individual Articles/Running & Training Existing Models.md",
+    "IsaacLab/Individual Articles/RL Libraries.md",
+    "IsaacLab/Individual Articles/Environment Creation.md",
+    "Play.py.md",
+    "IsaacLab/Play",
+    "IsaacLab/Train",
+    "ComfyUI ImgVid/Nodes/Video/Create Video.md",
+    "Hydra Info",
+    "IsaacLab/Train/Frame Works",
+    "IsaacLab",
+    "ComfyUI ImgVid/Nodes/Video",
+    "Load Diffusion Model",
+    "ComfyUI ImgVid/Info On Files And Useability/Folder Structure.png"
+  ]
+}

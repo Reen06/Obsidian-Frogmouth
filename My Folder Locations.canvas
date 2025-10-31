@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"f49c3868c93e6561","x":-125,"y":-30,"width":250,"height":60,"type":"text","text":"Isaac Sim"},
+		{"id":"c073fe1a7375aa39","x":-125,"y":60,"width":250,"height":60,"type":"text","text":"Isaac Lab"},
+		{"id":"976d0cfccf22d3f9","x":-125,"y":-120,"width":250,"height":60,"type":"text","text":"ComfyUI"},
+		{"id":"e6ed5fe9e373b896","x":-125,"y":220,"width":250,"height":60,"type":"text","text":"ROS 2"},
+		{"id":"61059588022bbbb6","x":-125,"y":300,"width":250,"height":60,"type":"text","text":"ROS 2 Workspace"},
+		{"id":"db1171499f8d4ade","x":220,"y":-100,"width":250,"height":60,"type":"text","text":"\"C:\\ComfyUI\""},
+		{"id":"4e3f5129a85159cd","x":220,"y":-10,"width":250,"height":60,"type":"text","text":"\"C:\\issac-sim\""},
+		{"id":"f447a0d081046476","x":220,"y":80,"width":250,"height":60,"type":"text","text":"\"D:\\Sim\\IsaacLab\""},
+		{"id":"a8af5485626f7515","x":-125,"y":140,"width":250,"height":60,"type":"text","text":"Isaac Lab Workspace"},
+		{"id":"76c1bc3c1d675d40","x":220,"y":160,"width":250,"height":60,"type":"text","text":"\"D:\\Sim\\Isaac Lab Workspace\""},
+		{"id":"055974969c31dad7","x":220,"y":240,"width":250,"height":60,"type":"text","text":"\"\\\\wsl.localhost\\Ubuntu-24.04\\home\\reen\\.ros\""},
+		{"id":"bd41f599384e4857","x":220,"y":320,"width":250,"height":60,"type":"text","text":"\"\\\\wsl.localhost\\Ubuntu-24.04\\home\\reen\\ros2_ws\""}
+	],
+	"edges":[
+		{"id":"6b6ad24d88d841d3","fromNode":"61059588022bbbb6","fromSide":"right","toNode":"bd41f599384e4857","toSide":"left"},
+		{"id":"ed5c40d2ab7f1361","fromNode":"e6ed5fe9e373b896","fromSide":"right","toNode":"055974969c31dad7","toSide":"left"},
+		{"id":"00816a1bf0694b1d","fromNode":"a8af5485626f7515","fromSide":"right","toNode":"76c1bc3c1d675d40","toSide":"left"},
+		{"id":"1234aaf5679aa4f5","fromNode":"c073fe1a7375aa39","fromSide":"right","toNode":"f447a0d081046476","toSide":"left"},
+		{"id":"fdbda4e650937984","fromNode":"f49c3868c93e6561","fromSide":"right","toNode":"4e3f5129a85159cd","toSide":"left"},
+		{"id":"b9a5e64bb5ac5f72","fromNode":"976d0cfccf22d3f9","fromSide":"right","toNode":"db1171499f8d4ade","toSide":"left"}
+	]
+}
