@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Micro Mamba/README-create-mamba-env.md",
-                "mode": "preview",
+                "file": "Docker/Jetson Containers Short.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README-create-mamba-env"
+              "title": "Jetson Containers Short"
             }
           }
         ],
@@ -197,16 +197,16 @@
   },
   "active": "e00510cb38b6c86d",
   "lastOpenFiles": [
+    "Docker/Jetson-Containers-Guide.md",
+    "Docker/Jetson Containers Short.md",
+    "Micro Mamba/README-create-mamba-env.md",
     "Micro Mamba/Old How to Micromamba.md",
     "Micro Mamba/Older How to Micromamba.md",
-    "Micro Mamba/README-create-mamba-env.md",
     "Linux/Commands.md",
-    "Docker/Jetson Containers Short.md",
     "Docker",
     "Micro Mamba",
     "GitHub/Github Workflow.md",
     "Linux/Make EXE Scripts.md",
-    "Docker/Jetson-Containers-Guide.md",
     "My Folder Locations.canvas",
     "IsaacLab/Isaac Lab Training.canvas",
     "Linux",
