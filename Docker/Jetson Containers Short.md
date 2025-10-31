@@ -1,5 +1,3 @@
-## **Jetson Containers Quick Reference**
-
 ### **1. Create Container with Current Folder Mounted**
 
 Create a container with the current directory mounted to `/workspace`:
@@ -8,9 +6,27 @@ Create a container with the current directory mounted to `/workspace`:
 jetson-containers run --name <name> -v $(pwd):/workspace $(autotag ollama) bash
 ```
 
+> **Note:**  
+> Containers created with `jetson-containers` are automatically removed when they are stopped, preventing them from accumulating in your container list.
+
 ---
 
-### **2. Exit Container**
+### **2. Enter Container**
+
+Enter an existing running container:
+
+```bash
+docker exec -it <container_id_or_name> bash
+```
+
+**Example:**
+```bash
+docker exec -it test4 bash
+```
+
+---
+
+### **3. Exit Container**
 
 **First exit (detach without stopping):**
 - Press `Ctrl+P` then `Ctrl+Q`
@@ -22,7 +38,7 @@ exit
 
 ---
 
-### **3. List Docker Containers**
+### **4. List Docker Containers**
 
 |**Command**|**Description**|
 |---|---|
@@ -31,7 +47,7 @@ exit
 
 ---
 
-### **4. List Docker Images**
+### **5. List Docker Images**
 
 ```bash
 docker images
@@ -39,7 +55,7 @@ docker images
 
 ---
 
-### **5. Remove Unused Images**
+### **6. Remove Unused Images**
 
 ```bash
 docker image prune
@@ -47,7 +63,7 @@ docker image prune
 
 ---
 
-### **6. Remove Containers**
+### **7. Remove Containers**
 
 ```bash
 docker rm <container_name_or_id>
