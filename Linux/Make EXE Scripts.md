@@ -24,7 +24,7 @@ chmod +x ~/Projects/Jetson\ Scripts/Open-Notes.sh
 To make the script available from anywhere in the terminal:
 
 ```bash
-sudo mv "$HOME/Projects/Jetson Scripts/Open-Notes.sh" /usr/local/bin/notes
+sudo mv "$HOME/Projects/Jetson Scripts/Open-Notes.sh" /usr/local/bin/<Name>
 ```
 
 After this, you can run the script from any directory by typing `open-notes` in the terminal.
@@ -34,7 +34,7 @@ After this, you can run the script from any directory by typing `open-notes` in 
 Run:
 
 ```bash
-sudo micro /usr/local/bin/notes
+sudo micro /usr/local/bin/<Name>
 ```
 
 ---
