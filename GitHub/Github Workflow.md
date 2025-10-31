@@ -1,4 +1,4 @@
-
+### **New repo workflow**
 ```powershell
 # (1) Initialize a new Git repository
 git init
@@ -20,6 +20,15 @@ git branch -M main
 git push -u origin main
 ```
 
+### **Clone repo workflow**
+```powershell
+# (1) Initialize a new Git repository
+git init
+
+# (2) Add all files in your current directory
+git clone git@github.com:Reen06/<repo>
+
+```
 
 ### **Normal update workflow**
 
