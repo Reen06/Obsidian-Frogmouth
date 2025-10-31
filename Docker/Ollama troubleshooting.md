@@ -1,6 +1,6 @@
 ## Ollama Troubleshooting on Jetson
 
-### Summary of the Fix
+### Summary of the Fixes
 - Limited TinyLlama’s GPU footprint by setting `num_gpu 10` in the shared `Modelfile`, keeping context at 256 tokens.
 - Created two local variants inside the Jetson containers image:
   - `tinyllama-jetson` – offloads 10 layers to CUDA (fits in ~2.5 GiB VRAM).
