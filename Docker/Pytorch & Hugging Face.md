@@ -22,3 +22,6 @@ exit
 
 exit and keep running
 ctrl+p  & ctrl+q
+
+delete docker container 
+docker rm <container name>

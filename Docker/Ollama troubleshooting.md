@@ -19,11 +19,11 @@ PARAMETER num_gpu 10
 ### Workflow / How To Use It
 1. **Enter the container** (already running as `test1`, otherwise use `jetson-containers run $(autotag ollama)`).
 2. **Pick a backend**: (Start Ollama Server)
-   - GPU (preferred):
+    GPU (preferred):
    ```bash
      OLLAMA_LLM_LIBRARY=cuda_v12 ollama serve > /tmp/ollama.log 2>&1 &
      ```
-   - CPU fallback:
+   - CPU fallback:-
    ```bash
      OLLAMA_LLM_LIBRARY=cpu ollama serve > /tmp/ollama.log 2>&1 &
      ```
