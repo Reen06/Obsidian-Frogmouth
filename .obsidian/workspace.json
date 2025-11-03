@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Pytorch & Hugging Face.md",
+                "file": "GitHub/Hugging Face & Git.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pytorch & Hugging Face"
+              "title": "Hugging Face & Git"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ollama workflow.md",
-                "mode": "source",
+                "file": "GitHub/Github Workflow.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ollama workflow"
+              "title": "Github Workflow"
             }
           },
           {
@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Ollama troubleshooting.md",
+                "file": "Docker/OLD/Ollama troubleshooting.md",
                 "mode": "source",
                 "source": false
               },
@@ -107,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a28d26ac7c011f54",
@@ -209,13 +208,14 @@
   },
   "active": "991e48308998961d",
   "lastOpenFiles": [
-    "Docker/Pytorch & Hugging Face.md",
-    "Ollama workflow.md",
-    "Docker/Ollama troubleshooting.md",
+    "GitHub/Hugging Face & Git.md",
+    "GitHub/Github Workflow.md",
+    "Docker/OLD/Ollama troubleshooting.md",
+    "Docker/OLD",
+    "Docker/Ollama workflow.md",
     "Docker/Jetson Containers Short.md",
     "Docker/Jetson-Containers-Guide.md",
     "IsaacLab/Individual Articles/My Demo Programs.md",
-    "GitHub/Github Workflow.md",
     "Untitled.base",
     "Micro Mamba/README-create-mamba-env.md",
     "Micro Mamba/Old How to Micromamba.md",
@@ -244,9 +244,7 @@
     "IsaacLab/Individual Articles/Sensor Integration.md",
     "IsaacLab/AI_Reference",
     "IsaacLab/Individual Articles",
-    "IsaacLab/Train/SKRL Train Flags.md",
     "IsaacLab/Play",
-    "IsaacLab/Train",
     "ComfyUI ImgVid/Info On Files And Useability/Folder Structure.png"
   ]
 }
