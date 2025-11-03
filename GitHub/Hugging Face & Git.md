@@ -1,27 +1,74 @@
+## **GitHub, Hugging Face & Docker Commands**
 
-clone GitHub
-git clone git@github.com:<repo location>
+---
 
-clone hugging face
-git clone git@hf.co: <repo location>
+## **Git Operations**
 
-start docker container (first time)
+### **Clone GitHub Repository**
+
+```bash
+git clone git@github.com:<repo_location>
+```
+
+---
+
+### **Clone Hugging Face Repository**
+
+```bash
+git clone git@hf.co:<repo_location>
+```
+
+---
+
+## **Docker Container Operations**
+
+### **Start Docker Container (First Time - From Autotag)**
+
+```bash
 jetson-containers run --name <name> -v $(pwd):/workspace $(autotag <ollama/pytorch/etc...>) bash
+```
 
-Save docker container  
-----
+---
 
-start docker container <from img>
+### **Start Docker Container (From Image)**
+
+```bash
+jetson-containers run --name <name> -v $(pwd):/workspace <image_name>:<tag> bash
+```
+
+**Example:**
+```bash
 jetson-containers run --name tinyllama -v $(pwd):/workspace reen16/jetson-tinyllama-1.1b:latest bash
+```
 
-enter a docker container
+---
+
+### **Enter a Docker Container**
+
+```bash
 docker exec -it <container_id_or_name> bash
+```
 
-exit and shutdown conatiner
+---
+
+### **Exit and Shutdown Container**
+
+```bash
 exit
+```
 
-exit and keep running
-ctrl+p  & ctrl+q
+---
 
-delete docker container 
-docker rm <container name>
+### **Exit and Keep Container Running**
+
+Press `Ctrl+P` then `Ctrl+Q`
+
+---
+
+### **Delete Docker Container**
+
+```bash
+docker rm <container_name>
+```
+
+---
