@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GitHub/Hugging Face & Git.md",
+                "file": "Docker/Ollama workflow.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hugging Face & Git"
+              "title": "Ollama workflow"
             }
           },
           {
@@ -49,8 +49,7 @@
               "title": "Ollama troubleshooting"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a28d26ac7c011f54",
@@ -123,6 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Docker/Ollama workflow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Ollama workflow"
             }
           },
           {
@@ -141,11 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Docker/Ollama workflow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Ollama workflow"
             }
           },
           {
@@ -206,10 +208,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "991e48308998961d",
+  "active": "792ea613e6273ae0",
   "lastOpenFiles": [
     "GitHub/Hugging Face & Git.md",
     "GitHub/Github Workflow.md",
+    "Linux/Make EXE Scripts.md",
     "Docker/OLD/Ollama troubleshooting.md",
     "Docker/OLD",
     "Docker/Ollama workflow.md",
@@ -223,7 +226,6 @@
     "Linux/Commands.md",
     "Docker",
     "Micro Mamba",
-    "Linux/Make EXE Scripts.md",
     "My Folder Locations.canvas",
     "IsaacLab/Isaac Lab Training.canvas",
     "Linux",
