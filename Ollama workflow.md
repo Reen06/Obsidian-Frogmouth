@@ -16,23 +16,18 @@ create a new LLM
      ollama create <model-name> -f /workspace/Modelfile
      ```
 ---
+Set Cuda Version
+   ```bash
+     OLLAMA_LLM_LIBRARY=cuda_v12 ollama serve > /tmp/ollama.log 2>&1 &
+     ```
+---
+Enter LLM Conversation
+   ```bash
+     ollama run tinyllama-jetson
+     ```
+---
 Run Code
    ```bash
      echo "hello" | ollama run tinyllama-jetson
      ```
 ---
-
-
-
-
-   ```bash
-     OLLAMA_LLM_LIBRARY=cuda_v12 ollama serve > /tmp/ollama.log 2>&1 &
-     ```
-
-   ```bash
-     OLLAMA_LLM_LIBRARY=cuda_v12 ollama serve > /tmp/ollama.log 2>&1 &
-     ```
-
-   ```bash
-     OLLAMA_LLM_LIBRARY=cuda_v12 ollama serve > /tmp/ollama.log 2>&1 &
-     ```
