@@ -50,3 +50,22 @@ echo "hello" | ollama run tinyllama-jetson
 ```
 
 ---
+
+### **Step 7: Update an Existing Model**
+
+If you need to modify an existing model, delete and recreate it:
+
+```bash
+ollama rm <model>  # Delete old phi model
+ollama create <model> -f /workspace/<modelfile>
+```
+
+---
+
+### **Step 8: Stop a Running Model**
+
+```bash
+ollama stop <model>
+```
+
+---
