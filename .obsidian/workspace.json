@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Useful Repos.md",
+                "file": "Video Recognition/Useful Repos.md",
                 "mode": "preview",
                 "source": false
               },
@@ -222,10 +222,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8d49e6e67e701fb5",
+  "active": "dd65e6413fa368ea",
   "lastOpenFiles": [
     "Docker/Ollama workflow.md",
-    "Useful Repos.md",
+    "Video Recognition/Useful Repos.md",
     "Video Recognition",
     "Docker/Jetson-Containers-Guide.md",
     "GitHub/Hugging Face & Git.md",
