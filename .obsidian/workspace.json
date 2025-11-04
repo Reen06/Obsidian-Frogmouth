@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Video Recognition/Useful Repos.md",
+                "file": "Docker/Ollama workflow.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Useful Repos"
+              "title": "Ollama workflow"
             }
           },
           {
@@ -222,10 +222,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dd65e6413fa368ea",
+  "active": "be32956debed62fa",
   "lastOpenFiles": [
-    "Docker/Ollama workflow.md",
     "Video Recognition/Useful Repos.md",
+    "Docker/Ollama workflow.md",
     "Video Recognition",
     "Docker/Jetson-Containers-Guide.md",
     "GitHub/Hugging Face & Git.md",
