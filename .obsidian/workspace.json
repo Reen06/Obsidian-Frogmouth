@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Ollama workflow.md",
+                "file": "Docker/Jetson Hardware Acceleration Requirements.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ollama workflow"
+              "title": "Jetson Hardware Acceleration Requirements"
             }
           },
           {
@@ -224,16 +224,18 @@
   },
   "active": "be32956debed62fa",
   "lastOpenFiles": [
-    "Video Recognition/Useful Repos.md",
-    "Docker/Ollama workflow.md",
-    "Video Recognition",
+    "Docker/Jetson Containers Short.md",
     "Docker/Jetson-Containers-Guide.md",
+    "Docker/OLD/Jetson-Containers-Guide.md",
+    "Docker/Jetson Hardware Acceleration Requirements.md",
+    "Docker/Ollama workflow.md",
+    "Video Recognition/Useful Repos.md",
+    "Video Recognition",
     "GitHub/Hugging Face & Git.md",
     "GitHub/Github Workflow.md",
     "Linux/Make EXE Scripts.md",
     "Docker/OLD/Ollama troubleshooting.md",
     "Docker/OLD",
-    "Docker/Jetson Containers Short.md",
     "IsaacLab/Individual Articles/My Demo Programs.md",
     "Untitled.base",
     "Micro Mamba/README-create-mamba-env.md",
@@ -258,8 +260,6 @@
     "IsaacLab/Individual Articles/Debugging and Profiling.md",
     "IsaacLab/Individual Articles/Advanced Features.md",
     "IsaacLab/Individual Articles/Non-Training Scripts and Tools.md",
-    "IsaacLab/Individual Articles/Robot Integration.md",
-    "IsaacLab/Individual Articles/Sensor Integration.md",
     "IsaacLab/AI_Reference",
     "IsaacLab/Individual Articles",
     "ComfyUI ImgVid/Info On Files And Useability/Folder Structure.png"
