@@ -25,14 +25,17 @@
             "id": "be32956debed62fa",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Docker/Jetson Hardware Acceleration Requirements.md",
-                "mode": "preview",
-                "source": false
+                "file": "Robotics Club Notes Workflow.canvas",
+                "viewState": {
+                  "x": 56.25121183017785,
+                  "y": -189.8331270923248,
+                  "zoom": -0.7619535632173198
+                }
               },
-              "icon": "lucide-file",
-              "title": "Jetson Hardware Acceleration Requirements"
+              "icon": "lucide-layout-dashboard",
+              "title": "Robotics Club Notes Workflow"
             }
           },
           {
@@ -224,10 +227,11 @@
   },
   "active": "be32956debed62fa",
   "lastOpenFiles": [
+    "Docker/Jetson Hardware Acceleration Requirements.md",
+    "Robotics Club Notes Workflow.canvas",
     "Docker/Jetson Containers Short.md",
     "Docker/Jetson-Containers-Guide.md",
     "Docker/OLD/Jetson-Containers-Guide.md",
-    "Docker/Jetson Hardware Acceleration Requirements.md",
     "Docker/Ollama workflow.md",
     "Video Recognition/Useful Repos.md",
     "Video Recognition",
@@ -259,7 +263,6 @@
     "IsaacLab/Individual Articles/Model Deployment.md",
     "IsaacLab/Individual Articles/Debugging and Profiling.md",
     "IsaacLab/Individual Articles/Advanced Features.md",
-    "IsaacLab/Individual Articles/Non-Training Scripts and Tools.md",
     "IsaacLab/AI_Reference",
     "IsaacLab/Individual Articles",
     "ComfyUI ImgVid/Info On Files And Useability/Folder Structure.png"
