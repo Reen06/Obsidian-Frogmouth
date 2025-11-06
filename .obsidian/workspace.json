@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ComfyUI ImgVid/Nodes/Video/VAE Decode.md",
+                "file": "Video Recognition/Useful Repos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VAE Decode"
+              "title": "Useful Repos"
             }
           },
           {
@@ -238,6 +238,9 @@
   },
   "active": "9229302f23f09a33",
   "lastOpenFiles": [
+    "My Folder Locations.canvas",
+    "WIP Robotics Club Notes Workflow.canvas",
+    "ComfyUI ImgVid/Nodes/Video/VAE Decode.md",
     "ComfyUI ImgVid/Nodes/Video/ModelSamplingSD3.md",
     "ComfyUI ImgVid/Nodes/Video/Load VAE.md",
     "ComfyUI ImgVid/Nodes/Video/Load LoRa.md",
@@ -249,7 +252,6 @@
     "ComfyUI ImgVid/Info On Files And Useability/Info on types of Files.md",
     "ComfyUI ImgVid/Info On Files And Useability/Hugging Face Compatibility.md",
     "ComfyUI ImgVid/Info On Files And Useability/Folder Structure.png",
-    "WIP Robotics Club Notes Workflow.canvas",
     "Video Recognition/Useful Repos.md",
     "Video Recognition/Old/Useful Repos.md",
     "Video Recognition/Old",
@@ -268,11 +270,8 @@
     "Untitled.base",
     "Micro Mamba/README-create-mamba-env.md",
     "Micro Mamba/Old How to Micromamba.md",
-    "Micro Mamba/Older How to Micromamba.md",
-    "Linux/Commands.md",
     "Docker",
     "Micro Mamba",
-    "My Folder Locations.canvas",
     "IsaacLab/Isaac Lab Training.canvas",
     "Linux",
     "GitHub",
