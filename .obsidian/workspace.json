@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Video Recognition/Useful Repos.md",
+                "file": "ComfyUI ImgVid/Nodes/Video/VAE Decode.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Useful Repos"
+              "title": "VAE Decode"
             }
           },
           {
@@ -236,12 +236,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dd65e6413fa368ea",
+  "active": "9229302f23f09a33",
   "lastOpenFiles": [
-    "Video Recognition/Old/Useful Repos.md",
+    "ComfyUI ImgVid/Nodes/Video/ModelSamplingSD3.md",
+    "ComfyUI ImgVid/Nodes/Video/Load VAE.md",
+    "ComfyUI ImgVid/Nodes/Video/Load LoRa.md",
+    "ComfyUI ImgVid/Nodes/Video/Load Diffusion Model.md",
+    "ComfyUI ImgVid/Nodes/Video/Load Clip.md",
+    "ComfyUI ImgVid/Nodes/Video/K Sampler.md",
+    "ComfyUI ImgVid/Nodes/Video/EmptyHunyuanLatentVideo.md",
+    "ComfyUI ImgVid/Nodes/Video/Create Video.md",
+    "ComfyUI ImgVid/Info On Files And Useability/Info on types of Files.md",
+    "ComfyUI ImgVid/Info On Files And Useability/Hugging Face Compatibility.md",
+    "ComfyUI ImgVid/Info On Files And Useability/Folder Structure.png",
+    "WIP Robotics Club Notes Workflow.canvas",
     "Video Recognition/Useful Repos.md",
+    "Video Recognition/Old/Useful Repos.md",
     "Video Recognition/Old",
-    "Robotics Club Notes Workflow.canvas",
     "Docker/Jetson Hardware Acceleration Requirements.md",
     "Docker/Jetson Containers Short.md",
     "Docker/Jetson-Containers-Guide.md",
@@ -265,17 +276,7 @@
     "IsaacLab/Isaac Lab Training.canvas",
     "Linux",
     "GitHub",
-    "IsaacLab/AI_Reference/Isaac_Lab_Complete_Reference.md",
     "ROS 2",
-    "IsaacLab/Individual Articles/Demo Tasks.md",
-    "IsaacLab/Individual Articles/Train.py & Play.py.md",
-    "IsaacLab/Individual Articles/Mounting an Existing Project.md",
-    "IsaacLab/Individual Articles/Policies, Training, and Rewards.md",
-    "IsaacLab/Individual Articles/Manager-Based Workflow.md",
-    "IsaacLab/Individual Articles/Importing Robot and Setting up RL Training.md",
-    "IsaacLab/Individual Articles/Model Deployment.md",
-    "IsaacLab/Individual Articles/Debugging and Profiling.md",
-    "IsaacLab/AI_Reference",
-    "ComfyUI ImgVid/Info On Files And Useability/Folder Structure.png"
+    "IsaacLab/AI_Reference"
   ]
 }
